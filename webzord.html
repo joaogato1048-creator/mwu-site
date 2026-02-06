@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>DevWebstore</title>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">DevWebstore</div>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+
+    <div class="ground-circle">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <div class="list">
+
+        <!-- ITEM 1 -->
+        <div class="item active">
+            <div class="product-img">
+                <img src="./img/air-pods.png" alt="AirPods">
+            </div>
+
+            <div class="content">
+                <p class="product-tag">Lançamento</p>
+                <p class="product-name">AirPods S10</p>
+                <p class="description">
+                    Curta sua música com liberdade total. Os AirPods Bluetooth oferecem som limpo,
+                    conexão rápida e conforto para o dia todo.
+                </p>
+
+                <button class="btn">SAIBA MAIS</button>
+            </div>
+        </div>
+
+        <!-- ITEM 2 -->
+        <div class="item">
+            <div class="product-img">
+                <img src="./img/apple-watch.png" alt="Apple Watch">
+            </div>
+
+            <div class="content">
+                <p class="product-tag">Lançamento</p>
+                <p class="product-name">Apple Watch S10</p>
+                <p class="description">
+                     pple Watch combina tecnologia, saúde e estilo no seu dia a dia.>
+                </p>
+
+                <button class="btn">SAIBA MAIS</button>
+            </div>
+        </div>
+
+        <!-- ITEM 3 -->
+        <div class="item">
+            <div class="product-img">
+                <img src="./img/vision-pro.png" alt="Apple Vision Pro">
+            </div>
+
+            <div class="content">
+                <p class="product-tag">Lançamento</p>
+                <p class="product-name">Apple Vision Pro</p>
+                <p class="description">
+                    O Apple Vision Pro redefine a forma de interagir com a tecnologia,
+                    oferecendo uma experiência totalmente imersiva.
+                </p>
+
+                <button class="btn">SAIBA MAIS</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SETAS -->
+    <div class="arrows">
+        <button class="arrows-btn" id="prev">◀</button>
+        <button class="arrows-btn" id="next">▶</button>
+    </div>
+
+    <!-- INDICADORES -->
+    <div class="indication">
+        <div class="numbers">01</div>
+        <div class="dots">
+            <div class="dot "></div>
+            <div class="dot active"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+</main>
+
+</body>
+<script src="./scripts.js"></script>
+</html>
